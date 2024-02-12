@@ -1,0 +1,20 @@
+{
+  "nixEnvSelector.nixFile": "${workspaceFolder}/flake.nix",
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
+  "[python]": {
+    "diffEditor.ignoreTrimWhitespace": false,
+    "gitlens.codeLens.symbolScopes": [
+      "!Module"
+    ],
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "ms-python.autopep8",
+  },
+  "austin.mode": "CPU time",
+  "austin.binaryMode": true,
+  "austin.interval": 100,
+  "austin.lineStats": "Percent",
+}
