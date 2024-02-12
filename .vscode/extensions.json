@@ -1,8 +1,11 @@
 {
   "recommendations": [
+    "benjamin-simmonds.pythoncpp-debug",
+    "ktnrg45.vscode-cython",
     "ms-python.autopep8",
-    "p403n1x87.austin-vscode",
+    "ms-python.python",
     "ms-python.vscode-pylance",
-    "ms-python.python"
+    "ms-vscode.cpptools",
+    "p403n1x87.austin-vscode",
   ]
 }
