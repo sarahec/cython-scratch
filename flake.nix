@@ -69,6 +69,7 @@
           services.elasticsearch.enable = true;
 
           packages = with pkgs; [
+            gcc # for cython
             noti
             wget
           ];
